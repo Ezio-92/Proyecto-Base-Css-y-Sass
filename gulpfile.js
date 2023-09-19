@@ -26,7 +26,7 @@ function imagenes(){
 }
 
 function dev(){
-    watch("src/scss/app.scss", css);
+    watch("src/scss/**/*.scss", css);
     watch("src/img/**/*", imagenes);
 
 }
